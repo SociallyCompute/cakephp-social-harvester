@@ -1,0 +1,23 @@
+2012-02-18 13:09:51 Error: [MissingControllerException] Controller class SksjdfController could not be found.
+#0 /Users/arielkirkwood/github/drexel-hackathon-fun/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-18 14:03:24 Error: [MissingViewException] View file "/Users/arielkirkwood/github/drexel-hackathon-fun/app/View/Tweets/index.ctp" is missing.
+#0 /Users/arielkirkwood/github/drexel-hackathon-fun/lib/Cake/View/View.php(360): View->_getViewFileName(NULL)
+#1 /Users/arielkirkwood/github/drexel-hackathon-fun/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /Users/arielkirkwood/github/drexel-hackathon-fun/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#3 /Users/arielkirkwood/github/drexel-hackathon-fun/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/arielkirkwood/github/drexel-hackathon-fun/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-18 14:04:48 Error: [MissingViewException] View file "/Users/arielkirkwood/github/drexel-hackathon-fun/app/View/Tweets/index.ctp" is missing.
+#0 /Users/arielkirkwood/github/drexel-hackathon-fun/lib/Cake/View/View.php(360): View->_getViewFileName(NULL)
+#1 /Users/arielkirkwood/github/drexel-hackathon-fun/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /Users/arielkirkwood/github/drexel-hackathon-fun/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#3 /Users/arielkirkwood/github/drexel-hackathon-fun/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(TweetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/arielkirkwood/github/drexel-hackathon-fun/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-18 17:46:25 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Users/arielkirkwood/github/drexel-hackathon-fun/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-18 17:57:27 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Users/arielkirkwood/github/drexel-hackathon-fun/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
